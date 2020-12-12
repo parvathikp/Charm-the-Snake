@@ -85,8 +85,8 @@ def play():
     screen = pygame.display.set_mode((w, h))
     pygame.display.set_caption("EXAMPLE")
     exit_game = False
-    food_x = random.randint(1, w)
-    food_y = random.randint(50, h)
+    food_x = random.randint(100, w-100)
+    food_y = random.randint(100, h-100)
     pygame.font.init()
     myfont = pygame.font.SysFont('Comic Sans MS', 40)
     if not os.path.exists("hiscore.txt"):
