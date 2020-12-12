@@ -15,7 +15,7 @@ root = Tk()
 root.title("CHARM THE SNAKE")
 w = 900
 h = 600
-root.geometry("800x600")
+root.geometry("900x600")
 cv = Canvas(width=w, height=h)
 snake_color = "yellow"
 food_color = "red"
